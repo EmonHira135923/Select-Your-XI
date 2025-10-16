@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": 95,
+    "batting": "Left-hand Bat",
+    "bowling_style": "Slow Left-arm Orthodox",
+    "image": "https://i.ibb.co.com/nqNXPNZL/sakib.jpg",
+    "price": 1200000
+  },
+  {
+    "id": 2,
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "rating": 88,
+    "batting": "Left-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "image": "https://i.ibb.co.com/QvK00y5D/tamim-iqbal.jpg",
+    "price": 950000
+  },
+  {
+    "id": 3,
+    "name": "Taskin Ahmed",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": 85,
+    "batting": "Right-hand Bat",
+    "bowling_style": "Right-arm Fast",
+    "image": "https://i.ibb.co.com/N2tdTW0T/taskin-ahamed.jpg",
+    "price": 800000
+  },
+  {
+    "id": 4,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "role": "All-Rounder",
+    "rating": 92,
+    "batting": "Right-hand Bat",
+    "bowling_style": "Right-arm Fast",
+    "image": "https://i.ibb.co.com/hxxcgPnB/Dre-Russel.jpg",
+    "price": 1500000
+  },
+  {
+    "id": 5,
+    "name": "David Miller",
+    "country": "South Africa",
+    "role": "Batsman",
+    "rating": 87,
+    "batting": "Left-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "image": "https://i.ibb.co.com/yFwfm2fj/Miller.jpg",
+    "price": 1000000
+  },
+  {
+    "id": 6,
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": 89,
+    "batting": "Left-hand Bat",
+    "bowling_style": "Left-arm Fast-medium",
+    "image": "https://i.ibb.co.com/7xWQtHWQ/Fiz.jpg",
+    "price": 1100000
+  },
+  {
+    "id": 7,
+    "name": "Nicholas Pooran",
+    "country": "West Indies",
+    "role": "Wicketkeeper-Batsman",
+    "rating": 90,
+    "batting": "Left-hand Bat",
+    "bowling_style": "None",
+    "image": "https://i.ibb.co.com/5ghq68rB/porran.jpg",
+    "price": 1300000
+  },
+  {
+    "id": 8,
+    "name": "Litton Das",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper-Batsman",
+    "rating": 86,
+    "batting": "Right-hand Bat",
+    "bowling_style": "None",
+    "image": "https://i.ibb.co.com/jvtvd0yW/LKD.jpg",
+    "price": 900000
+  },
+  {
+    "id": 9,
+    "name": "Mahmudullah Riyad",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": 84,
+    "batting": "Right-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "image": "https://i.ibb.co.com/BWQsbM6/M-Riyad.jpg",
+    "price": 850000
+  },
+  {
+    "id": 10,
+    "name": "Kieron Pollard",
+    "country": "West Indies",
+    "role": "All-Rounder",
+    "rating": 91,
+    "batting": "Right-hand Bat",
+    "bowling_style": "Right-arm Medium",
+    "image": "https://i.ibb.co.com/XZNffLbs/K-Pollard.jpg",
+    "price": 1400000
+  },
+  {
+    "id": 11,
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper-Batsman",
+    "rating": 89,
+    "batting": "Right-hand Bat",
+    "bowling_style": "None",
+    "image": "https://i.ibb.co.com/xxrJrZZ/Mushi.jpg",
+    "price": 950000
+  },
+  {
+    "id": 12,
+    "name": "Mehidy Hasan Miraz",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": 88,
+    "batting": "Right-hand Bat",
+    "bowling_style": "Right-arm Offbreak",
+    "image": "https://i.ibb.co.com/WNRZv13Y/Miraz.jpg",
+    "price": 870000
+  }
+]
