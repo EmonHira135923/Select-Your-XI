@@ -3,6 +3,7 @@ import NavVar from "./Components/Navar/NavVar";
 import Avilableplayers from "./Components/AvilablePlayer/Avilableplayers";
 import SelectedPlayers from "./Components/SelectedPlayer/SelectedPlayers";
 import { Suspense, useState } from "react";
+import { ToastContainer } from "react-toastify";
 
 const fetchplayers = async () => {
   const res = await fetch("/players.json");
@@ -13,7 +14,7 @@ const messagepromise = fetchplayers();
 
 function App() {
   const [toggle, settoggle] = useState(true);
-  const [AvailableBalance, setAvilableBalance] = useState(7000000);
+  const [AvailableBalance, setAvilableBalance] = useState(70000000);
   const [BuyPlayers, setBuyPlayers] = useState([]);
   const removeplayer = (p) => {
     const deleteplayer = BuyPlayers.filter((player) => player.id !== p.id);
@@ -71,6 +72,8 @@ function App() {
           BuyPlayers={BuyPlayers}
         ></SelectedPlayers>
       )}
+
+      <ToastContainer />
     </>
   );
 }

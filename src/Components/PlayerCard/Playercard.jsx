@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import manicon from "../../assets/user-1.png";
 import flagimg from "../../assets/report-1.png";
 import Avilableplayers from "../AvilablePlayer/Avilableplayers";
+import { toast } from "react-toastify";
 
 const Playercard = ({
   player,
@@ -13,15 +14,20 @@ const Playercard = ({
   const [choseplayer, setchoseplayer] = useState(false);
   const handlebalance = ({ player }) => {
     if (AvailableBalance < player.price) {
-      alert("You Have Not Enough Balance");
+      toast("You Have Not Enough Balance");
       return;
-    } else {
-      const newbalance = AvailableBalance - player.price;
-      setchoseplayer(true);
-      setAvilableBalance(newbalance);
-      const newbuyplayer = [...BuyPlayers, player];
-      setBuyPlayers(newbuyplayer);
     }
+    if (BuyPlayers.length === 6) {
+      toast("You Have Selected 6 Players!!!");
+      return;
+    }
+    const newbalance = AvailableBalance - player.price;
+    setchoseplayer(true);
+    setAvilableBalance(newbalance);
+    const newbuyplayer = [...BuyPlayers, player];
+    setBuyPlayers(newbuyplayer);
+
+    toast("Player Added Succesfully");
   };
   return (
     <div className="card bg-gray-100 shadow-sm p-2">
